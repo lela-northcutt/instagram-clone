@@ -30,6 +30,9 @@ gem 'turbolinks', '~> 5'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'carrierwave', '0.10.0'
+gem 'fog', '~> 1.37.0'
+gem 'mini_magick'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
@@ -45,6 +48,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'figaro'
 end
 
 group :test do
