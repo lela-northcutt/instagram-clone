@@ -30,7 +30,7 @@ gem 'turbolinks', '~> 5'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-gem 'carrierwave', '0.10.0'
+gem 'carrierwave', '1.3.2'
 gem 'fog', '~> 1.37.0'
 gem 'mini_magick'
 # Reduces boot times through caching; required in config/boot.rb
